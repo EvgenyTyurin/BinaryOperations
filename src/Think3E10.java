@@ -10,11 +10,11 @@ public class Think3E10 {
     /* Binary form of int with + left zeroes = 32bit length */
     private static String IntToBinary(int intVar) {
         String binString = Integer.toBinaryString(intVar);
-        StringBuilder leftZeoroes = new StringBuilder();
+        StringBuilder leftZeroes = new StringBuilder();
         for (int charCount = binString.length(); charCount < 32; charCount++) {
-            leftZeoroes.append("0");
+            leftZeroes.append("0");
         }
-        return  leftZeoroes + binString;
+        return  leftZeroes + binString;
     }
 
     // Run point
