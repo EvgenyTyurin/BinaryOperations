@@ -19,10 +19,10 @@ public class Think3E10 {
 
     // Run point
     public static void main(String[] args) {
-        // Integer operands in hex format
-        int var1 = 0x2AA;
+        // Integer operands in binary format
+        int var1 = Integer.parseInt("1010101010101010101010101010101", 2);
         System.out.println("var1=" + IntToBinary(var1));
-        int var2 = 0x155;
+        int var2 = Integer.parseInt("0101010101010101010101010101010", 2);
         System.out.println("var2=" + IntToBinary(var2));
         // Make some binary operations
         int var3 = var1 | var2;
